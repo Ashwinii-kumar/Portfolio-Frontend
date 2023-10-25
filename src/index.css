@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  row-gap: 3rem;
+  column-gap: 4rem;
+  margin-bottom: 9rem;
+}
+
+.abcd {
+  background-image: url("./assets/dark3.jpeg");
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.abc {
+  background-image: url("./assets/bg-1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.profile {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.slick-prev,
+.slick-next {
+  color: rgb(197, 38, 38);
+
+  width: 20px;
+  height: 20px;
+}
+
+.slick-prev {
+  left: 10px;
+}
+
+.slick-next {
+  right: 10px;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  background: #555;
+  border-radius: 50%;
+}
+
+.boxx {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  column-gap: 4rem;
+  gap: 3rem;
+}
+
+.custom-toast-container {
+  width: 50w;
+  margin: auto;
+  height: auto;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Customize toast notification title */
+.custom-toast-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Customize toast notification message */
+.custom-toast-message {
+  font-size: 14px;
+}
+
+.title {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.letter {
+  margin-right: 10px; /* Add margin to create gaps */
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.letter.appear {
+  opacity: 1;
+  transform: translateY(0);
+}
+.loader{
+  margin-left: 15px;
+}
