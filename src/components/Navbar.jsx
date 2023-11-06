@@ -59,7 +59,7 @@ const Navbar = () => {
               to="/"
               className={(nav) =>
                 nav.isActive
-                  ? "bg-yellow-400 px-3 py-2 text-gray-700 rounded-md "
+                  ? "border-b-yellow-400 border-b-4 px-3 py-2 text-gray-700 rounded-md "
                   : ""
               }
             >
@@ -71,7 +71,7 @@ const Navbar = () => {
               to="/about"
               className={(nav) =>
                 nav.isActive
-                  ? "bg-yellow-400 px-3 py-2 text-gray-700 rounded-md "
+                  ? "border-b-yellow-400 border-b-4 px-3 py-2 text-gray-700 rounded-md "
                   : ""
               }
             >
@@ -83,7 +83,7 @@ const Navbar = () => {
               to="/projects"
               className={(nav) =>
                 nav.isActive
-                  ? "bg-yellow-400 px-3 py-2 text-gray-700 rounded-md "
+                  ? "border-b-yellow-400 border-b-4 px-3 py-2 text-gray-700 rounded-md "
                   : ""
               }
             >
@@ -95,7 +95,7 @@ const Navbar = () => {
               to="/contact"
               className={(nav) =>
                 nav.isActive
-                  ? "bg-yellow-400 px-3 py-2 text-gray-700 rounded-md "
+                  ? "border-b-yellow-400 border-b-4 px-3 py-2 text-gray-700 rounded-md "
                   : ""
               }
             >

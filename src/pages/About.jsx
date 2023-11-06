@@ -50,74 +50,74 @@ const About = () => {
         {flag && (
           <>
             <div className="grid  grid-cols-4 md:grid-cols-5  box w-[75%] mx-auto p-4">
-              <div className="flex flex-col items-center justify-center  shadow-[0_3px_10px_rgb(0,0,0,0.2)] h-[120px] rounded-full w-[120px] space-y-2 bg-slate-950 text-white">
+              <div className="flex flex-col items-center justify-center  shadow-[0_3px_10px_rgb(0,0,0,0.2)] h-[120px] rounded-full w-[120px] space-y-2 bg-slate-950 text-white effect">
                 <SiCplusplus
                   style={{ height: "44px", width: "44px" }}
-                  className="text-blue-500 bg-white mt-3"
+                  className="text-blue-500 bg-white mt-3 "
                 />
-                <h3 className="font-bolder">C++</h3>
+                <h3 className="font-bold text-teal-400">C++</h3>
               </div>
-              <div className="flex flex-col items-center justify-center  shadow-[0_3px_10px_rgb(0,0,0,0.2)] h-[120px] rounded-full w-[120px] space-y-2 bg-slate-950 text-white">
+              <div className="flex flex-col items-center justify-center  shadow-[0_3px_10px_rgb(0,0,0,0.2)] h-[120px] rounded-full w-[120px] space-y-2 bg-slate-950 text-white effect">
                 <ImHtmlFive
                   style={{ height: "44px", width: "44px" }}
                   className="text-red-500  bg-white"
                 />
-                <h3 className="font-bolder">Html</h3>
+                <h3 className="font-bold text-teal-400">Html</h3>
               </div>
-              <div className="flex flex-col items-center justify-center  shadow-[0_3px_10px_rgb(0,0,0,0.2)] h-[120px] rounded-full w-[120px] space-y-2 bg-slate-950 text-white">
+              <div className="flex flex-col items-center justify-center  shadow-[0_3px_10px_rgb(0,0,0,0.2)] h-[120px] rounded-full w-[120px] space-y-2 bg-slate-950 text-white effect">
                 <DiCss3
                   style={{ height: "44px", width: "44px" }}
                   className="text-blue-700 bg-white"
                 />
-                <h3 className="font-bolder">Css</h3>
+                <h3 className="font-bold text-teal-400">Css</h3>
               </div>
-              <div className="flex flex-col items-center justify-center  shadow-[0_3px_10px_rgb(0,0,0,0.2)] h-[120px] rounded-full w-[120px] space-y-2 bg-slate-950 text-white">
+              <div className="flex flex-col items-center justify-center  shadow-[0_3px_10px_rgb(0,0,0,0.2)] h-[120px] rounded-full w-[120px] space-y-2 bg-slate-950 text-white effect">
                 <IoLogoJavascript
                   style={{ height: "44px", width: "44px" }}
                   className="text-yellow-500"
                 />
-                <h3 className="font-bolder">Javascript</h3>
+                <h3 className="font-bold text-teal-400">Javascript</h3>
               </div>
-              <div className="flex flex-col items-center justify-center  shadow-[0_3px_10px_rgb(0,0,0,0.2)] h-[120px] rounded-full w-[120px] space-y-2 bg-slate-950 text-white">
+              <div className="flex flex-col items-center justify-center  shadow-[0_3px_10px_rgb(0,0,0,0.2)] h-[120px] rounded-full w-[120px] space-y-2 bg-slate-950 text-white effect">
                 <FaReact
                   style={{ height: "44px", width: "44px" }}
                   className="text-sky-400 font-bold  bg-black  "
                 />
-                <h3 className="font-bolder">React</h3>
+                <h3 className="font-bold text-teal-400">React</h3>
               </div>
-              <div className="flex flex-col items-center justify-center  shadow-[0_3px_10px_rgb(0,0,0,0.2)] h-[120px] rounded-full w-[120px] space-y-2 bg-slate-950 text-white">
+              <div className="flex flex-col items-center justify-center  shadow-[0_3px_10px_rgb(0,0,0,0.2)] h-[120px] rounded-full w-[120px] space-y-2 bg-slate-950 text-white effect">
                 <TbBrandRedux
                   style={{ height: "44px", width: "44px" }}
                   className="text-purple-500"
                 />
-                <h3 className="font-bolder">Redux</h3>
+                <h3 className="font-bold text-teal-400">Redux</h3>
               </div>
-              <div className="flex flex-col items-center justify-center  shadow-[0_3px_10px_rgb(0,0,0,0.2)] h-[120px] rounded-full w-[120px] space-y-2 bg-slate-950 text-white">
+              <div className="flex flex-col items-center justify-center  shadow-[0_3px_10px_rgb(0,0,0,0.2)] h-[120px] rounded-full w-[120px] space-y-2 bg-slate-950 text-white effect">
                 <FaNodeJs
                   style={{ height: "44px", width: "44px" }}
                   className="text-green-700"
                 />
-                <h3 className="font-bolder">Node.js</h3>
+                <h3 className="font-bold text-teal-400">Node.js</h3>
               </div>
-              <div className="flex flex-col items-center justify-center  shadow-[0_3px_10px_rgb(0,0,0,0.2)] h-[120px] rounded-full w-[120px] space-y-2 bg-slate-950 text-white">
+              <div className="flex flex-col items-center justify-center  shadow-[0_3px_10px_rgb(0,0,0,0.2)] h-[120px] rounded-full w-[120px] space-y-1 bg-slate-950 text-white effect ">
                 <SiExpress
                   style={{ height: "44px", width: "44px", fontWeight: "bold" }}
                 />
-                <h3 className="font-bolder">Express.js</h3>
+                <h3 className="font-bold text-teal-400">Express.js</h3>
               </div>
-              <div className="flex flex-col items-center justify-center  shadow-[0_3px_10px_rgb(0,0,0,0.2)] h-[120px] rounded-full w-[120px] space-y-2 bg-slate-950 text-white">
+              <div className="flex flex-col items-center justify-center  shadow-[0_3px_10px_rgb(0,0,0,0.2)] h-[120px] rounded-full w-[120px] space-y-2 bg-slate-950 text-white effect">
                 <SiMongodb
                   style={{ height: "44px", width: "44px" }}
                   className="text-green-700"
                 />
-                <h3 className="font-bolder">MongoDb</h3>
+                <h3 className="font-bold text-teal-400">MongoDb</h3>
               </div>
-              <div className="flex flex-col items-center justify-center  shadow-[0_3px_10px_rgb(0,0,0,0.2)] h-[120px] rounded-full w-[120px] space-y-2 bg-slate-950 text-white">
+              <div className="flex flex-col items-center justify-center  shadow-[0_3px_10px_rgb(0,0,0,0.2)] h-[120px] rounded-full w-[120px] space-y-2 bg-slate-950 text-white effect">
                 <SiTailwindcss
                   style={{ height: "44px", width: "44px" }}
                   className="text-sky-500"
                 />
-                <h3 className="font-bolder">Tailwind Css</h3>
+                <h3 className="font-bold text-teal-400">Tailwind Css</h3>
               </div>
             </div>
           </>

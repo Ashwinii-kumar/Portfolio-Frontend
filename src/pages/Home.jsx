@@ -28,12 +28,12 @@ const Home = () => {
           HEY , I AM ASHWINI KUMAR
         </h1>
 
-        <p>
+        <p className="para">
           A motivated and fast-learning MERN stack developer with a strong
           foundation in web development technologies. Adept at problem-solving
           and committed to producing clean, efficient code.
         </p>
-        <p className="">
+        <p className="para">
           {" "}
           Eager to contribute to innovative projects, collaborate with a team,
           and further develop skills in web development.
